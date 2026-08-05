@@ -81,7 +81,7 @@ Images are generated at 256×256 and saved at 224×224 for downstream training. 
 
 ## 3. Evaluate
 
-Train a student network (e.g. ResNet-18) on the generated images following standard dataset-distillation evaluation protocols with soft labels at 224×224.
+Train a student network (e.g. ResNet-18) on the generated images following standard dataset-distillation evaluation protocols with soft labels at 224×224. Please using the evaluation code in [D3HR](https://github.com/lin-zhao-resoLve/D3HR).
 
 ## Notes for reproduction
 
@@ -91,7 +91,7 @@ Train a student network (e.g. ResNet-18) on the generated images following stand
 
 ## TODO
 
-- [ ] Release the distilled dataset
+- [ ] We will release the distilled dataset soon.
 
 ## Citation
 
@@ -106,4 +106,4 @@ Train a student network (e.g. ResNet-18) on the generated images following stand
 
 ## Acknowledgments
 
-This codebase is built on [VAR](https://github.com/FoundationVision/VAR) (NeurIPS 2024 Best Paper). We thank the authors for open-sourcing it; the original license is kept in [LICENSE](LICENSE).
+This codebase is built on [VAR](https://github.com/FoundationVision/VAR). We thank the authors for open-sourcing it.
