@@ -1,0 +1,9 @@
+torch>=2.1
+torchvision
+
+Pillow
+huggingface_hub
+numpy
+pytz
+tensorboard
+typed-argument-parser
