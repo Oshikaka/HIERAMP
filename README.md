@@ -89,9 +89,6 @@ Train a student network (e.g. ResNet-18) on the generated images following stand
 - `--cls_scales` at sampling must match the fine-tuned checkpoint (default: 0–9).
 - Generation is deterministic given `--seed`; each additional batch chunk of a class uses `seed + chunk`.
 
-## TODO
-
-- [ ] We will release the distilled dataset soon.
 
 ## Citation
 
